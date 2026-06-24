@@ -8,7 +8,7 @@ application:
       reindex-enabled: false
       reindex-entities:
       - "Agent"
-      reindex-size: 1000
+      reindex-size: 10000
     scheduled:
       reindex-cron: "0 */30 * ? * *"
       reindex-enabled: false
